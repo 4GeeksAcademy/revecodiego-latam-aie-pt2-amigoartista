@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<title>Aurora Reveco | Cantautora de Folk Latino</title>
+		<meta
+			name="description"
+			content="Landing oficial de Aurora Reveco, cantautora de folk latino. Conoce su historia, trayectoria y proximas presentaciones en vivo."
+		/>
+		<meta
+			name="keywords"
+			content="Aurora Reveco, cantautora, folk latino, musica latinoamericana, conciertos, presentaciones en vivo"
+		/>
+
+		<!-- Open Graph para compartir en redes sociales con mejor contexto visual y textual -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Aurora Reveco | Cantautora de Folk Latino" />
+		<meta
+			property="og:description"
+			content="Descubre la musica de Aurora Reveco: biografia, trayectoria y fechas en vivo."
+		/>
+		<meta property="og:url" content="https://example.com/lucia-valdes" />
+		<meta property="og:image" content="https://picsum.photos/1200/630?random=11" />
+
+		<!-- Hoja de estilos externa (sin estilos en linea segun requerimiento) -->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!--
+			Datos estructurados: entidad principal de tipo MusicGroup con una integrante Person
+			y eventos futuros de tipo MusicEvent para enriquecer SEO semantico.
+		-->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "MusicGroup",
+				"name": "Aurora Reveco",
+				"genre": "Folk latino",
+				"url": "https://example.com/lucia-valdes",
+				"image": "https://picsum.photos/1200/630?random=11",
+				"member": {
+					"@type": "Person",
+					"name": "Aurora Reveco",
+					"jobTitle": "Cantautora"
+				},
+				"event": [
+					{
+						"@type": "MusicEvent",
+						"name": "Vivir el Presente",
+						"startDate": "2056-09-19T20:30:00-03:00",
+						"location": {
+							"@type": "Place",
+							"name": "Movistar Arena",
+							"address": "Santiago, Chile"
+						}
+					},
+					{
+						"@type": "MusicEvent",
+						"name": "Presentacion Sinfonica Especial",
+						"startDate": "2056-10-11T19:00:00-03:00",
+						"location": {
+							"@type": "Place",
+							"name": "Teatro Municipal de Santiago",
+							"address": "Santiago, Chile"
+						}
+					},
+					{
+						"@type": "MusicEvent",
+						"name": "Cantos para la Vida",
+						"startDate": "2056-11-07T21:00:00-03:00",
+						"location": {
+							"@type": "Place",
+							"name": "Anfiteatro de la Quinta Vergara",
+							"address": "Vina del Mar, Chile"
+						}
+					}
+				]
+			}
+		</script>
+	</head>
+	<body>
+		<!-- Enlace de salto para teclado/lectores de pantalla: evita repetir el menu en cada navegacion -->
+	 <a href="#contenido-principal">Saltar al contenido</a>
+
+		<header>
+			<!-- Navegacion principal con nombre del sitio y anclas a secciones clave -->
+			<nav aria-label="Navegacion principal">
+				<a href="#inicio" aria-label="Ir al inicio de Aurora Reveco">Aurora Reveco</a>
+				<ul>
+					<li><a href="#sobre-mi">Sobre mi</a></li>
+					<li><a href="#trayectoria">Trayectoria</a></li>
+					<li><a href="#proximas-presentaciones">Proximas presentaciones</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="contenido-principal">
+			<!-- Hero: unico h1 de la pagina para mantener una jerarquia de encabezados correcta -->
+			<section id="inicio" aria-labelledby="titulo-principal">
+				<h1 id="titulo-principal">Aurora Reveco</h1>
+				<p>Una propuesta musical llena de energía, emoción y raíces chilenas, que inspira a vivir el presente con valentía, alegría y esperanza.</p>
+
+				<!-- Figure aporta contexto visual; imagen no decorativa con alt descriptivo -->
+				<figure>
+					<img
+						src="https://picsum.photos/960/540?random=21"
+						alt="Aurora Reveco cantando con guitarra acustica durante un concierto intimo"
+					/>
+					<figcaption>Una voz latinoamericana que une tradicion y nuevas sonoridades.</figcaption>
+				</figure>
+			</section>
+
+			<!-- Seccion biografica con encabezado propio y texto descriptivo en dos parrafos -->
+			<section id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+				<h2 id="titulo-sobre-mi">Sobre mi</h2>
+				<p>
+					<strong>Soy Aurora Reveco</strong>, cantautora chilena nacida entre montañas y
+					campos, donde aprendí de mis abuelos a cantar, pintar y expresar mis emociones a
+					través del arte.
+				</p>
+				<p>
+					Mi música combina alegría, energía y una voz intensa que busca conectar con las
+					personas. En mis canciones hablo del amor por la vida, de la importancia de vivir
+					el presente y de la valentía necesaria para seguir adelante y perseguir nuestros
+					sueños.
+				</p>
+			</section>
+
+			<!-- Trayectoria en formato de linea de tiempo semantica usando lista ordenada -->
+			<section id="trayectoria" aria-labelledby="titulo-trayectoria">
+				<h2 id="titulo-trayectoria">Trayectoria</h2>
+				<ol>
+					<li>
+						<article aria-label="Hito de 2048">
+							<p><time datetime="2048">2048</time> - Realicé mi primera gira nacional, llevando mi música a teatros y centros culturales desde Arica hasta Punta Arenas.</p>
+						</article>
+					</li>
+					<li>
+						<article aria-label="Hito de 2049">
+							<p><time datetime="2049">2049</time> - Lancé mi álbum <em>Raíces del Viento</em>, que alcanzó gran reconocimiento en la escena musical chilena por su propuesta que fusiona folk contemporáneo y sonidos tradicionales.</p>
+						</article>
+					</li>
+					<li>
+						<article aria-label="Hito de 2050">
+							<p><time datetime="2050">2050</time> - Fui invitada a presentarme en el escenario principal del Festival Internacional de la Canción de Viña del Mar, compartiendo mi música con miles de personas de Chile y Latinoamérica.</p>
+						</article>
+					</li>
+					<li>
+						<article aria-label="Hito de 2055">
+							<p><time datetime="2055">2055</time> - Recibí el reconocimiento a la Trayectoria Artística Nacional otorgado por el Ministerio de las Culturas, las Artes y el Patrimonio por mi aporte a la música y la difusión de la cultura chilena.</p>
+						</article>
+					</li>
+				</ol>
+			</section>
+
+			<!-- Agenda de eventos con fechas futuras y elemento time para lectura humana y maquina -->
+			<section
+				id="proximas-presentaciones"
+				aria-labelledby="titulo-proximas-presentaciones"
+			>
+				<h2 id="titulo-proximas-presentaciones">Proximas presentaciones</h2>
+				<article>
+					<h3>Vivir el Presente</h3>
+					<p>
+						<strong><time datetime="2056-09-19T20:30">19 de septiembre de 2056 - 20:30 hrs.</time></strong><br />
+						<strong>Movistar Arena - Santiago</strong><br />
+						Concierto "Vivir el Presente", un espectáculo de larga duración que recorrerá
+						los mayores éxitos de mi carrera junto a invitados especiales.
+					</p>
+				</article>
+				<article>
+					<h3>Presentacion Sinfonica Especial</h3>
+					<p>
+						<strong><time datetime="2056-10-11T19:00">11 de octubre de 2056 - 19:00 hrs.</time></strong><br />
+						<strong>Teatro Municipal de Santiago - Santiago</strong><br />
+						Presentación sinfónica especial junto a una orquesta de cámara, fusionando mis
+						canciones con arreglos inéditos.
+					</p>
+				</article>
+				<article>
+					<h3>Cantos para la Vida</h3>
+					<p>
+						<strong><time datetime="2056-11-07T21:00">7 de noviembre de 2056 - 21:00 hrs.</time></strong><br />
+						<strong>Anfiteatro de la Quinta Vergara - Viña del Mar</strong><br />
+						Concierto de cierre de temporada "Cantos para la Vida", una noche dedicada a
+						celebrar la música, la esperanza y el encuentro con el público.
+					</p>
+				</article>
+			</section>
+		</main>
+
+		<!-- Footer con enlaces externos a redes; aria-label aclara el proposito del bloque -->
+		<footer aria-label="Redes sociales de Aurora Reveco">
+			<p>Sigamos en contacto:</p>
+			<ul>
+				<li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+				<li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+				<li><a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer">Spotify</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
